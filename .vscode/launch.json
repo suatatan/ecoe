@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "npm: build",
+        "type": "npm",
+        "request": "run-script",
+        "script": "build"
+      },
+      {
+        "name": "npm: build:assets",
+        "type": "npm",
+        "request": "run-script",
+        "script": "build:assets"
+      },
+      {
+        "name": "npm: build:pug",
+        "type": "npm",
+        "request": "run-script",
+        "script": "build:pug"
+      },
+      {
+        "name": "npm: build:scripts",
+        "type": "npm",
+        "request": "run-script",
+        "script": "build:scripts"
+      },
+      {
+        "name": "npm: build:scss",
+        "type": "npm",
+        "request": "run-script",
+        "script": "build:scss"
+      },
+      {
+        "name": "npm: clean",
+        "type": "npm",
+        "request": "run-script",
+        "script": "clean"
+      },
+      {
+        "name": "npm: start:debug",
+        "type": "npm",
+        "request": "run-script",
+        "script": "start:debug"
+      },
+      {
+        "name": "npm: start",
+        "type": "npm",
+        "request": "run-script",
+        "script": "start"
+      }
+    ]
+  }
+  
