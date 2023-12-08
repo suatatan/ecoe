@@ -11,6 +11,14 @@ html {
     scroll-padding-top: 4.5rem;
 }
 
+#reports{
+    margin-bottom: 1rem; 
+}
+#reports .card{
+    padding: 0.1rem;
+    min-height: 3 rem;
+}
+
 // Custom utilities
 
 .bg-black {
@@ -45,3 +53,4 @@ section {
 .app-badge {
     height: 3rem;
 }
+

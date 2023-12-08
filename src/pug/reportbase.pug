@@ -1,5 +1,66 @@
 extends includes/layout.pug
 block content
-    header.masthead.container.px-5
-        h1 Report Base 
-        p.A repository for data analytics report
+    
+    .container
+        .row 
+            header.masthead.px-5
+            h1 Report Base 
+            p A repository for data analytics report
+    
+        #reports
+            .row
+
+                .col-md-4
+                    .card.border-secondary
+                        img.card-img-top(src="https://th.bing.com/th/id/OIG.oAvXQDPoVuGVGJhLxXp1?pid=ImgGn", alt="Loss Analysis")
+                        .card-body
+                        h5.card-title Losses Analysis
+                        p.card-text The higher production or import/export refers to higher losses. 
+                        a.btn.btn-primary(href="https://iofsdb.streamlit.app/e-losses", target="_blank") Go to analysis
+
+                .col-md-4
+                    .card.border-secondary
+                        img.card-img-top(src="https://th.bing.com/th/id/OIG.RFDA6SoIvCKmjOlJjnmu?pid=ImgGn", alt="OIC Rice Report")
+                        .card-body
+                        h5.card-title Rice Geoanalysis
+                        p.card-text Export and Import, domestic supply quantity and analysis for rice.
+                        a.btn.btn-primary(href="https://lookerstudio.google.com/u/0/reporting/ab64c075-48e8-4104-9aea-fa6376357955/page/p_xevq5vawbd", target="_blank") Go to analysis
+
+                .col-md-4
+                    .card.border-secondary
+                        img.card-img-top(src="https://th.bing.com/th/id/OIG.gN6KFibJ3OSz47oPJtw7?pid=ImgGn", alt="OIC Wheat Report")
+                        .card-body
+                        h5.card-title Wheat Geoanalysis (Versus)
+                        p.card-text Export and Import, domestic supply quantity and analysis for rice.
+                        a.btn.btn-primary(href="https://lookerstudio.google.com/u/0/reporting/44351ce1-42fd-40f7-9c9e-cd5b9ad3ea72/page/p_xevq5vawbd", target="_blank") Go to analysis
+
+            .row
+
+                .col-md-4
+                    .card.border-secondary
+                        img.card-img-top(src="https://th.bing.com/th/id/OIG.P.GmcYqQj5q3YfNj3eCY?pid=ImgGn", alt="Loss Analysis")
+                        .card-body
+                        h5.card-title Cassava Geoanalysis (Versus)
+                        p.card-text Export and Import, domestic supply quantity and analysis for cassava. 
+                        a.btn.btn-primary(href="https://lookerstudio.google.com/u/0/reporting/c933ae0b-96d9-4083-992e-9fa47b9c1e88/page/p_xevq5vawbd", target="_blank") Go to analysis
+
+                .col-md-4
+                    .card.border-secondary
+                        img.card-img-top(src="https://th.bing.com/th/id/OIG.mr7j3sPfCNaJCJJDiH0V?pid=ImgGn", alt="Loss Analysis")
+                        .card-body
+                        h5.card-title Olive Geoanalysis (Versus)
+                        p.card-text Export and Import, domestic supply quantity and analysis for olive. 
+                        a.btn.btn-primary(href="https://lookerstudio.google.com/u/0/reporting/f7a220f0-0649-49a6-8e40-bbf1c8eaf810/page/p_xevq5vawbd", target="_blank") Go to analysis
+
+                .col-md-4
+                        .card.border-secondary
+                            img.card-img-top(src="https://th.bing.com/th/id/OIG.tVfw5QOANyYliD_tCkK1?pid=ImgGn", alt="Loss Analysis")
+                            .card-body
+                            h5.card-title Losses Analysis (Versus)
+                            p.card-text Compare OIC and the World for the losses. Visualize geographically.
+                            a.btn.btn-primary(href="https://lookerstudio.google.com/u/0/reporting/e91ddf7a-2caa-4296-82ce-faeaa2ccf8db/page/p_xevq5vawbd", target="_blank") Go to analysis
+
+                          
+
+            
+

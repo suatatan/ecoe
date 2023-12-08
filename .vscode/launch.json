@@ -47,7 +47,7 @@
         "name": "npm: start",
         "type": "npm",
         "request": "run-script",
-        "script": "start"
+        "script": "run start"
       }
     ]
   }
